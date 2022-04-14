@@ -1,0 +1,445 @@
+IntegrationTests.js:737 Test Passed - Add Customer Positive 0
+IntegrationTests.js:739 Total Passed Test Cases: 1
+IntegrationTests.js:555 Test Passed - Add Customer Positive 1
+IntegrationTests.js:558 Total Passed Test Cases: 2
+IntegrationTests.js:163 Test Passed - Add Account Positive 1
+IntegrationTests.js:165 Total Passed Test Cases: 3
+IntegrationTests.js:836 Test Passed - Add Customer to check against Positive 0_a
+IntegrationTests.js:838 Total Passed Test Cases: 4
+IntegrationTests.js:261 Test Passed - Add Account To Check Against - Positive 0
+IntegrationTests.js:263 Total Passed Test Cases: 5
+IntegrationTests.js:398 Test Passed - Add Account To Check Against - Positive 0
+IntegrationTests.js:400 Total Passed Test Cases: 6
+IntegrationTests.js:1015 Test Passed - Add Customer to check against Positive 0_a
+IntegrationTests.js:1017 Total Passed Test Cases: 7
+IntegrationTests.js:1594 Test Passed - Add Vendor to check against Positive 0_a
+IntegrationTests.js:1597 Total Passed Test Cases: 8
+IntegrationTests.js:1417 Test Passed - Add Vendor to check against Positive 0_a
+IntegrationTests.js:1420 Total Passed Test Cases: 9
+IntegrationTests.js:1707 Test Passed - Add Customer to check against Positive 0_a
+IntegrationTests.js:1710 Total Passed Test Cases: 10
+IntegrationTests.js:1315 Test Passed - Add Vendor to check against Positive 0
+IntegrationTests.js:1318 Total Passed Test Cases: 11
+IntegrationTests.js:1958 Test Passed - Add Customer to check against Positive 0_a
+IntegrationTests.js:1961 Total Passed Test Cases: 12
+IntegrationTests.js:1131 Test Passed - Add Vendor Positive 1
+IntegrationTests.js:1134 Total Passed Test Cases: 13
+IntegrationTests.js:2438 Test Passed - Add Customer to check against Positive 0_a
+IntegrationTests.js:2441 Total Passed Test Cases: 14
+IntegrationTests.js:2229 Test Passed - Add Customer to check against Positive 0_a
+IntegrationTests.js:2232 Total Passed Test Cases: 15
+IntegrationTests.js:2839 Test Passed - Add Customer to check against Positive 0_a
+IntegrationTests.js:2842 Total Passed Test Cases: 16
+IntegrationTests.js:3245 Test Passed - Add Customer to check against Positive 0_a
+IntegrationTests.js:3248 Total Passed Test Cases: 17
+IntegrationTests.js:3646 Test Passed - Add Customer to check against Positive 0_a
+IntegrationTests.js:3649 Total Passed Test Cases: 18
+IntegrationTests.js:4040 Test Passed - Add Customer to check against Positive 0_a
+IntegrationTests.js:4043 Total Passed Test Cases: 19
+IntegrationTests.js:4862 Test Passed - Add Customer to check against Positive 0_a
+IntegrationTests.js:4865 Total Passed Test Cases: 20
+IntegrationTests.js:4433 Test Passed - Add Customer to check against Positive 0_a
+IntegrationTests.js:4436 Total Passed Test Cases: 21
+IntegrationTests.js:5448 Test Passed - Add Customer to check against Positive 0_a
+IntegrationTests.js:5451 Total Passed Test Cases: 22
+IntegrationTests.js:87          POST http://localhost:8090/customers/addCustomer 500 (Internal Server Error)
+(anonymous) @ IntegrationTests.js:87
+u @ runtime.js:63
+(anonymous) @ runtime.js:294
+(anonymous) @ runtime.js:119
+n @ asyncToGenerator.js:3
+l @ asyncToGenerator.js:25
+(anonymous) @ asyncToGenerator.js:32
+(anonymous) @ asyncToGenerator.js:21
+(anonymous) @ IntegrationTests.js:86
+(anonymous) @ IntegrationTests.js:652
+Promise.then (async)
+(anonymous) @ IntegrationTests.js:550
+onClick @ IntegrationTests.js:6457
+We @ react-dom.production.min.js:52
+Ke @ react-dom.production.min.js:52
+(anonymous) @ react-dom.production.min.js:53
+kn @ react-dom.production.min.js:100
+Fn @ react-dom.production.min.js:101
+(anonymous) @ react-dom.production.min.js:113
+Me @ react-dom.production.min.js:292
+(anonymous) @ react-dom.production.min.js:50
+Mn @ react-dom.production.min.js:105
+et @ react-dom.production.min.js:75
+Zo @ react-dom.production.min.js:74
+o.unstable_runWithPriority @ scheduler.production.min.js:18
+$s @ react-dom.production.min.js:122
+Ae @ react-dom.production.min.js:292
+Yo @ react-dom.production.min.js:73
+IntegrationTests.js:657 Test Passed - Add Customer Negative 1
+IntegrationTests.js:659 Total Passed Test Cases: 23
+IntegrationTests.js:87          POST http://localhost:8090/authentication/addAccount 500 (Internal Server Error)
+(anonymous) @ IntegrationTests.js:87
+u @ runtime.js:63
+(anonymous) @ runtime.js:294
+(anonymous) @ runtime.js:119
+n @ asyncToGenerator.js:3
+l @ asyncToGenerator.js:25
+(anonymous) @ asyncToGenerator.js:32
+(anonymous) @ asyncToGenerator.js:21
+(anonymous) @ IntegrationTests.js:86
+(anonymous) @ IntegrationTests.js:186
+Promise.then (async)
+onClick @ IntegrationTests.js:158
+We @ react-dom.production.min.js:52
+Ke @ react-dom.production.min.js:52
+(anonymous) @ react-dom.production.min.js:53
+kn @ react-dom.production.min.js:100
+Fn @ react-dom.production.min.js:101
+(anonymous) @ react-dom.production.min.js:113
+Me @ react-dom.production.min.js:292
+(anonymous) @ react-dom.production.min.js:50
+Mn @ react-dom.production.min.js:105
+et @ react-dom.production.min.js:75
+Zo @ react-dom.production.min.js:74
+o.unstable_runWithPriority @ scheduler.production.min.js:18
+$s @ react-dom.production.min.js:122
+Ae @ react-dom.production.min.js:292
+Yo @ react-dom.production.min.js:73
+IntegrationTests.js:191 Test Passed - Add Account Negative 1
+IntegrationTests.js:193 Total Passed Test Cases: 24
+IntegrationTests.js:598 Test Passed - Update Customer Positive 1
+IntegrationTests.js:600 Total Passed Test Cases: 25
+IntegrationTests.js:6066 Test Passed - Add Customer to check against Positive 0_a
+IntegrationTests.js:6069 Total Passed Test Cases: 26
+IntegrationTests.js:87          GET http://localhost:8090/customers/getCustomer/undefined 500 (Internal Server Error)
+(anonymous) @ IntegrationTests.js:87
+u @ runtime.js:63
+(anonymous) @ runtime.js:294
+(anonymous) @ runtime.js:119
+n @ asyncToGenerator.js:3
+l @ asyncToGenerator.js:25
+(anonymous) @ asyncToGenerator.js:32
+(anonymous) @ asyncToGenerator.js:21
+(anonymous) @ IntegrationTests.js:86
+(anonymous) @ IntegrationTests.js:756
+Promise.then (async)
+(anonymous) @ IntegrationTests.js:732
+onClick @ IntegrationTests.js:6458
+We @ react-dom.production.min.js:52
+Ke @ react-dom.production.min.js:52
+(anonymous) @ react-dom.production.min.js:53
+kn @ react-dom.production.min.js:100
+Fn @ react-dom.production.min.js:101
+(anonymous) @ react-dom.production.min.js:113
+Me @ react-dom.production.min.js:292
+(anonymous) @ react-dom.production.min.js:50
+Mn @ react-dom.production.min.js:105
+et @ react-dom.production.min.js:75
+Zo @ react-dom.production.min.js:74
+o.unstable_runWithPriority @ scheduler.production.min.js:18
+$s @ react-dom.production.min.js:122
+Ae @ react-dom.production.min.js:292
+Yo @ react-dom.production.min.js:73
+IntegrationTests.js:761 Test Passed - GetCustomer 1
+IntegrationTests.js:763 Total Passed Test Cases: 27
+IntegrationTests.js:328 Test Passed - AuthenticateAccountByEmail Negative 1
+IntegrationTests.js:330 Total Passed Test Cases: 28
+IntegrationTests.js:873 Test Passed - Add Customer to check against Positive 0b
+IntegrationTests.js:875 Total Passed Test Cases: 29
+IntegrationTests.js:285 Test Passed - AuthenticateAccountByEmail 1
+IntegrationTests.js:287 Total Passed Test Cases: 30
+IntegrationTests.js:1040 Test Passed - GetCustomerByEmail Positive 1
+IntegrationTests.js:1042 Total Passed Test Cases: 31
+IntegrationTests.js:466 Test Passed - AuthenticateAccountByPhone Negative 1
+IntegrationTests.js:468 Total Passed Test Cases: 32
+IntegrationTests.js:1620 Test Passed - GetVendorByEmail Positive 1
+IntegrationTests.js:1622 Total Passed Test Cases: 33
+IntegrationTests.js:422 Test Passed - AuthenticateAccountByPhone 1
+IntegrationTests.js:424 Total Passed Test Cases: 34
+IntegrationTests.js:1340 Test Passed - GetVendor 1
+IntegrationTests.js:1342 Total Passed Test Cases: 35
+IntegrationTests.js:6413 Test Passed - GetCost Positive 2
+IntegrationTests.js:6415 Total Passed Test Cases: 36
+IntegrationTests.js:6373 Test Passed - GetCost Positive 1
+IntegrationTests.js:6375 Total Passed Test Cases: 37
+IntegrationTests.js:87          POST http://localhost:8090/vendors/addVendor 500 (Internal Server Error)
+(anonymous) @ IntegrationTests.js:87
+u @ runtime.js:63
+(anonymous) @ runtime.js:294
+(anonymous) @ runtime.js:119
+n @ asyncToGenerator.js:3
+l @ asyncToGenerator.js:25
+(anonymous) @ asyncToGenerator.js:32
+(anonymous) @ asyncToGenerator.js:21
+(anonymous) @ IntegrationTests.js:86
+(anonymous) @ IntegrationTests.js:1230
+Promise.then (async)
+(anonymous) @ IntegrationTests.js:1125
+onClick @ IntegrationTests.js:6463
+We @ react-dom.production.min.js:52
+Ke @ react-dom.production.min.js:52
+(anonymous) @ react-dom.production.min.js:53
+kn @ react-dom.production.min.js:100
+Fn @ react-dom.production.min.js:101
+(anonymous) @ react-dom.production.min.js:113
+Me @ react-dom.production.min.js:292
+(anonymous) @ react-dom.production.min.js:50
+Mn @ react-dom.production.min.js:105
+et @ react-dom.production.min.js:75
+Zo @ react-dom.production.min.js:74
+o.unstable_runWithPriority @ scheduler.production.min.js:18
+$s @ react-dom.production.min.js:122
+Ae @ react-dom.production.min.js:292
+Yo @ react-dom.production.min.js:73
+IntegrationTests.js:1235 Test Passed - Add Vendor Negative 1
+IntegrationTests.js:1237 Total Passed Test Cases: 38
+IntegrationTests.js:1451 Test Passed - Add Vendor to check against Positive 0_b
+IntegrationTests.js:1454 Total Passed Test Cases: 39
+IntegrationTests.js:1992 Test Passed - Add Vendor to check against Positive 0_b
+IntegrationTests.js:1995 Total Passed Test Cases: 40
+IntegrationTests.js:1175 Test Passed - Update Vendor Positive 1
+IntegrationTests.js:1177 Total Passed Test Cases: 41
+IntegrationTests.js:2472 Test Passed - Add Vendor to check against Positive 0_b
+IntegrationTests.js:2475 Total Passed Test Cases: 42
+IntegrationTests.js:2263 Test Passed - Add Vendor to check against Positive 0_b
+IntegrationTests.js:2266 Total Passed Test Cases: 43
+IntegrationTests.js:1746 Test Passed - Add Vendor to check against Positive 0_b
+IntegrationTests.js:1749 Total Passed Test Cases: 44
+IntegrationTests.js:3279 Test Passed - Add Vendor to check against Positive 0_b
+IntegrationTests.js:3282 Total Passed Test Cases: 45
+IntegrationTests.js:3680 Test Passed - Add Vendor to check against Positive 0_b
+IntegrationTests.js:3683 Total Passed Test Cases: 46
+IntegrationTests.js:2873 Test Passed - Add Vendor to check against Positive 0_b
+IntegrationTests.js:2876 Total Passed Test Cases: 47
+IntegrationTests.js:4074 Test Passed - Add Vendor to check against Positive 0_b
+IntegrationTests.js:4077 Total Passed Test Cases: 48
+IntegrationTests.js:4896 Test Passed - Add Vendor to check against Positive 0_b
+IntegrationTests.js:4899 Total Passed Test Cases: 49
+IntegrationTests.js:4467 Test Passed - Add Vendor to check against Positive 0_b
+IntegrationTests.js:4470 Total Passed Test Cases: 50
+IntegrationTests.js:5482 Test Passed - Add Vendor to check against Positive 0_b
+IntegrationTests.js:5485 Total Passed Test Cases: 51
+IntegrationTests.js:1482 Test Passed - GetAllVendors Positive 1
+IntegrationTests.js:1484 Total Passed Test Cases: 52
+IntegrationTests.js:905 Test Passed - GetAllCustomers Positive 1
+IntegrationTests.js:907 Total Passed Test Cases: 53
+IntegrationTests.js:6100 Test Passed - Add Vendor to check against Positive 0_b
+IntegrationTests.js:6103 Total Passed Test Cases: 54
+IntegrationTests.js:87          GET http://localhost:8090/userProfiles/getUserProfileByEmail/testUserProfile_dummyEmail1_@_test_@gmail.com 500 (Internal Server Error)
+(anonymous) @ IntegrationTests.js:87
+u @ runtime.js:63
+(anonymous) @ runtime.js:294
+(anonymous) @ runtime.js:119
+n @ asyncToGenerator.js:3
+l @ asyncToGenerator.js:25
+(anonymous) @ asyncToGenerator.js:32
+(anonymous) @ asyncToGenerator.js:21
+(anonymous) @ IntegrationTests.js:86
+(anonymous) @ IntegrationTests.js:1853
+Promise.then (async)
+(anonymous) @ IntegrationTests.js:1741
+Promise.then (async)
+(anonymous) @ IntegrationTests.js:1702
+onClick @ IntegrationTests.js:6469
+We @ react-dom.production.min.js:52
+Ke @ react-dom.production.min.js:52
+(anonymous) @ react-dom.production.min.js:53
+kn @ react-dom.production.min.js:100
+Fn @ react-dom.production.min.js:101
+(anonymous) @ react-dom.production.min.js:113
+Me @ react-dom.production.min.js:292
+(anonymous) @ react-dom.production.min.js:50
+Mn @ react-dom.production.min.js:105
+et @ react-dom.production.min.js:75
+Zo @ react-dom.production.min.js:74
+o.unstable_runWithPriority @ scheduler.production.min.js:18
+$s @ react-dom.production.min.js:122
+Ae @ react-dom.production.min.js:292
+Yo @ react-dom.production.min.js:73
+IntegrationTests.js:2540 Test Passed - Add Vendor to check against Positive 0_d
+IntegrationTests.js:2543 Total Passed Test Cases: 55
+IntegrationTests.js:1858 Test Passed - GetUserProfileByEmail - with Email that does not exist in either Customer/Vendor - Negative 1
+IntegrationTests.js:1860 Total Passed Test Cases: 56
+IntegrationTests.js:1771 Test Passed - GetUserProfileByEmail - with Customer's Email - Positive 1
+IntegrationTests.js:1773 Total Passed Test Cases: 57
+IntegrationTests.js:1814 Test Passed - GetUserProfileByEmail - with Vendor's Email - Positive 2
+IntegrationTests.js:1816 Total Passed Test Cases: 58
+IntegrationTests.js:3714 Test Passed - Add Customer to check against Positive 0_c
+IntegrationTests.js:3717 Total Passed Test Cases: 59
+IntegrationTests.js:3313 Test Passed - Add Customer to check against Positive 0_c
+IntegrationTests.js:3316 Total Passed Test Cases: 60
+IntegrationTests.js:4108 Test Passed - Add Customer to check against Positive 0_c
+IntegrationTests.js:4111 Total Passed Test Cases: 61
+IntegrationTests.js:2907 Test Passed - Add Customer to check against Positive 0_c
+IntegrationTests.js:2910 Total Passed Test Cases: 62
+IntegrationTests.js:4930 Test Passed - Add Customer to check against Positive 0_c
+IntegrationTests.js:4933 Total Passed Test Cases: 63
+IntegrationTests.js:5516 Test Passed - Add Customer to check against Positive 0_c
+IntegrationTests.js:5519 Total Passed Test Cases: 64
+IntegrationTests.js:4501 Test Passed - Add Customer to check against Positive 0_c
+IntegrationTests.js:4504 Total Passed Test Cases: 65
+IntegrationTests.js:6134 Test Passed - Add Customer to check against Positive 0_c
+IntegrationTests.js:6137 Total Passed Test Cases: 66
+IntegrationTests.js:3748 Test Passed - Add Vendor to check against Positive 0_d
+IntegrationTests.js:3751 Total Passed Test Cases: 67
+IntegrationTests.js:2029 Test Passed - Add Subscription Positive 1
+IntegrationTests.js:2031 Total Passed Test Cases: 68
+IntegrationTests.js:2300 Test Passed - Add Subscription Positive 1
+IntegrationTests.js:2303 Total Passed Test Cases: 69
+IntegrationTests.js:2577 Test Passed - Add Subscription Positive 1
+IntegrationTests.js:2581 Total Passed Test Cases: 70
+IntegrationTests.js:3347 Test Passed - Add Vendor to check against Positive 0_d
+IntegrationTests.js:3350 Total Passed Test Cases: 71
+IntegrationTests.js:4142 Test Passed - Add Vendor to check against Positive 0_d
+IntegrationTests.js:4145 Total Passed Test Cases: 72
+IntegrationTests.js:4964 Test Passed - Add Vendor to check against Positive 0_d
+IntegrationTests.js:4967 Total Passed Test Cases: 73
+IntegrationTests.js:2979 Test Passed - Add Subscription Positive 1
+IntegrationTests.js:2983 Total Passed Test Cases: 74
+IntegrationTests.js:87          POST http://localhost:8090/subscriptions/addSubscription 500 (Internal Server Error)
+(anonymous) @ IntegrationTests.js:87
+u @ runtime.js:63
+(anonymous) @ runtime.js:294
+(anonymous) @ runtime.js:119
+n @ asyncToGenerator.js:3
+l @ asyncToGenerator.js:25
+(anonymous) @ asyncToGenerator.js:32
+(anonymous) @ asyncToGenerator.js:21
+(anonymous) @ IntegrationTests.js:86
+(anonymous) @ IntegrationTests.js:2110
+Promise.then (async)
+(anonymous) @ IntegrationTests.js:2022
+Promise.then (async)
+(anonymous) @ IntegrationTests.js:1987
+Promise.then (async)
+(anonymous) @ IntegrationTests.js:1953
+onClick @ IntegrationTests.js:6473
+We @ react-dom.production.min.js:52
+Ke @ react-dom.production.min.js:52
+(anonymous) @ react-dom.production.min.js:53
+kn @ react-dom.production.min.js:100
+Fn @ react-dom.production.min.js:101
+(anonymous) @ react-dom.production.min.js:113
+Me @ react-dom.production.min.js:292
+(anonymous) @ react-dom.production.min.js:50
+Mn @ react-dom.production.min.js:105
+et @ react-dom.production.min.js:75
+Zo @ react-dom.production.min.js:74
+o.unstable_runWithPriority @ scheduler.production.min.js:18
+$s @ react-dom.production.min.js:122
+Ae @ react-dom.production.min.js:292
+Yo @ react-dom.production.min.js:73
+IntegrationTests.js:5550 Test Passed - Add Vendor to check against Positive 0_d
+IntegrationTests.js:5553 Total Passed Test Cases: 75
+IntegrationTests.js:4535 Test Passed - Add Vendor to check against Positive 0_d
+IntegrationTests.js:4538 Total Passed Test Cases: 76
+IntegrationTests.js:87          POST http://localhost:8090/subscriptions/addSubscription 500 (Internal Server Error)
+(anonymous) @ IntegrationTests.js:87
+u @ runtime.js:63
+(anonymous) @ runtime.js:294
+(anonymous) @ runtime.js:119
+n @ asyncToGenerator.js:3
+l @ asyncToGenerator.js:25
+(anonymous) @ asyncToGenerator.js:32
+(anonymous) @ asyncToGenerator.js:21
+(anonymous) @ IntegrationTests.js:86
+(anonymous) @ IntegrationTests.js:2058
+Promise.then (async)
+(anonymous) @ IntegrationTests.js:2022
+Promise.then (async)
+(anonymous) @ IntegrationTests.js:1987
+Promise.then (async)
+(anonymous) @ IntegrationTests.js:1953
+onClick @ IntegrationTests.js:6473
+We @ react-dom.production.min.js:52
+Ke @ react-dom.production.min.js:52
+(anonymous) @ react-dom.production.min.js:53
+kn @ react-dom.production.min.js:100
+Fn @ react-dom.production.min.js:101
+(anonymous) @ react-dom.production.min.js:113
+Me @ react-dom.production.min.js:292
+(anonymous) @ react-dom.production.min.js:50
+Mn @ react-dom.production.min.js:105
+et @ react-dom.production.min.js:75
+Zo @ react-dom.production.min.js:74
+o.unstable_runWithPriority @ scheduler.production.min.js:18
+$s @ react-dom.production.min.js:122
+Ae @ react-dom.production.min.js:292
+Yo @ react-dom.production.min.js:73
+IntegrationTests.js:2115 Test Passed - Add Subscription Negative 2
+IntegrationTests.js:2118 Total Passed Test Cases: 77
+IntegrationTests.js:2063 Test Passed - Add Subscription Negative 1
+IntegrationTests.js:2065 Total Passed Test Cases: 78
+IntegrationTests.js:6168 Test Passed - Add Vendor to check against Positive 0_d
+IntegrationTests.js:6171 Total Passed Test Cases: 79
+IntegrationTests.js:3785 Test Passed - Add Subscription Positive 1
+IntegrationTests.js:3789 Total Passed Test Cases: 80
+IntegrationTests.js:2616 Test Passed - Add Subscription Positive 2
+IntegrationTests.js:2620 Total Passed Test Cases: 81
+IntegrationTests.js:3384 Test Passed - Add Subscription Positive 1
+IntegrationTests.js:3388 Total Passed Test Cases: 82
+IntegrationTests.js:4179 Test Passed - Add Subscription Positive 1
+IntegrationTests.js:4183 Total Passed Test Cases: 83
+IntegrationTests.js:5001 Test Passed - Add Subscription Positive 1
+IntegrationTests.js:5005 Total Passed Test Cases: 84
+IntegrationTests.js:3017 Test Passed - Add Subscription Positive 2
+IntegrationTests.js:3021 Total Passed Test Cases: 85
+IntegrationTests.js:4572 Test Passed - Add Subscription Positive 1
+IntegrationTests.js:4576 Total Passed Test Cases: 86
+IntegrationTests.js:6206 Test Passed - Add Subscription Positive 1
+IntegrationTests.js:6210 Total Passed Test Cases: 87
+IntegrationTests.js:2323 Test Passed - GetSubscription Positive 1
+IntegrationTests.js:2325 Total Passed Test Cases: 88
+IntegrationTests.js:5587 Test Passed - Add Subscription Positive 1
+IntegrationTests.js:5591 Total Passed Test Cases: 89
+IntegrationTests.js:2653 Test Passed - GetSubscriptionByCustomerEmail Positive 1
+IntegrationTests.js:2655 Total Passed Test Cases: 90
+IntegrationTests.js:3055 Test Passed - testGetSubscriptionByVendorEmail Positive 1
+IntegrationTests.js:3057 Total Passed Test Cases: 91
+IntegrationTests.js:3823 Test Passed - Add Subscription Positive 2
+IntegrationTests.js:3826 Total Passed Test Cases: 92
+IntegrationTests.js:4217 Test Passed - Add Subscription Positive 2
+IntegrationTests.js:4220 Total Passed Test Cases: 93
+IntegrationTests.js:3422 Test Passed - Add Subscription Positive 2
+IntegrationTests.js:3425 Total Passed Test Cases: 94
+IntegrationTests.js:6228 true
+IntegrationTests.js:6229 2022-04-01
+IntegrationTests.js:6230 2022-04-01
+IntegrationTests.js:6233 Test Passed - testMarkDelivered Positive 1
+IntegrationTests.js:6235 Total Passed Test Cases: 95
+IntegrationTests.js:4245 Test Passed - testGetActiveSubscriptionByVendorEmail Positive 1
+IntegrationTests.js:4247 Total Passed Test Cases: 96
+IntegrationTests.js:3851 Test Passed - testGetActiveSubscriptionByCustomerEmail Positive 1
+IntegrationTests.js:3853 Total Passed Test Cases: 97
+IntegrationTests.js:3458 Test Passed - testGetAllSubscriptions Positive 1
+IntegrationTests.js:3460 Total Passed Test Cases: 98
+IntegrationTests.js:5040 Test Passed - Add Subscription Positive 2
+IntegrationTests.js:5043 Total Passed Test Cases: 99
+IntegrationTests.js:4610 Test Passed - Add Subscription Positive 2
+IntegrationTests.js:4613 Total Passed Test Cases: 100
+IntegrationTests.js:5626 Test Passed - Add Subscription Positive 2
+IntegrationTests.js:5629 Total Passed Test Cases: 101
+IntegrationTests.js:4632 Test Passed - testActivateSubscription Positive 1
+IntegrationTests.js:4634 Total Passed Test Cases: 102
+IntegrationTests.js:4674 Test Passed - testDeactivateSubscription Positive 1
+IntegrationTests.js:4676 Total Passed Test Cases: 103
+IntegrationTests.js:5077 Test Passed - Add Subscription Positive 3
+IntegrationTests.js:5080 Total Passed Test Cases: 104
+IntegrationTests.js:5663 Test Passed - Add Subscription Positive 3
+IntegrationTests.js:5666 Total Passed Test Cases: 105
+IntegrationTests.js:5115 Test Passed - testGetPendingOrdersByCustomerEmail Positive 1
+IntegrationTests.js:5117 Total Passed Test Cases: 106
+IntegrationTests.js:5203 2022-04-01
+IntegrationTests.js:5208 Test Passed - testGetPendingOrdersByVendorEmail Positive 1
+IntegrationTests.js:5210 Total Passed Test Cases: 107
+IntegrationTests.js:5807 Test Passed - testGetCompletedOrdersByVendorEmail Positive 1
+IntegrationTests.js:5809 Total Passed Test Cases: 108
+IntegrationTests.js:5825 Test Passed - testGetCompletedOrdersByVendorEmail Positive 1
+IntegrationTests.js:5827 Total Passed Test Cases: 109
+IntegrationTests.js:5699 Test Passed - testGetCompletedOrdersByCustomerEmail Positive 1
+IntegrationTests.js:5701 Total Passed Test Cases: 110
+IntegrationTests.js:5717 Test Passed - testGetCompletedOrdersByCustomerEmail Positive 1
+IntegrationTests.js:5719 Total Passed Test Cases: 111
+IntegrationTests.js:5723 ****************************************
+IntegrationTests.js:5724              Test Results               
+IntegrationTests.js:5725 ****************************************
+IntegrationTests.js:5726 Total Test Cases: 111
+IntegrationTests.js:5727 Passed Test Cases: 111
+IntegrationTests.js:5728 Failed Test Cases: 0
+IntegrationTests.js:5729 ****************************************

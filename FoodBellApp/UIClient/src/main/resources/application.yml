@@ -1,0 +1,15 @@
+server:
+  port: 8090
+
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: ordermanagementModule
+          uri: http://localhost:8092
+          predicates:
+            - Path=/subscriptions/**
+        - id: usermanagementModule
+          uri: http://localhost:8091
+          predicates:
+            - Path=/authentication/**, /customers/**, /vendors/**, /userProfiles/**

@@ -1,0 +1,111 @@
+ /* .listItem-wrap img {
+    width: 100%;
+    border-radius: 15px;
+    height: 400px;
+    object-fit: cover;
+  }
+ 
+  .listItem-wrap header {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0 1rem 0;
+    align-items: center;
+   
+  }
+  
+  .listItem-wrap header span {
+    font-size: 0.7rem;
+    background-color: #97ffff;
+    padding: 0.5rem;
+    border-radius: 10px;
+  }
+  .listItem-wrap footer {
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .listItem-wrap footer p:first-child span {
+    color: rgba(0, 0, 0, 0.26);
+    font-weight: 600;
+  } */
+
+  .card {
+    /* border-radius: 25px; */
+    position: relative;
+    padding: 25px 15px;
+    
+    /* background-color:whitesmoke; */
+    background-color:#1C1A1A;
+    margin: 0px 0;
+    height: 200px;
+    /* box-shadow: 0 2px 5px #ccc; */
+    
+    
+  }
+  
+  .top {
+    /* border-radius: 25px 25px 0 0; */
+    height: 50px;
+    width: 100%;
+    background-color: #1976d2;
+    /* background-color: #25A69A; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .name {
+    font-size: 22px;
+    color:whitesmoke;
+    display: flex;
+    flex: 1;
+    /* margin: 1% 100px 0; */
+    justify-content: center;
+    /*text-align: right; */
+  }
+  
+  /* .card img {
+    margin: 30px 20px 0 0;
+  } */
+  
+  /* .circle-img {
+    border-radius: 50%;
+    border: 7px solid #fff;
+    width: 120px;
+    height: 120px;
+  } */
+  
+  .bottom {
+    margin-top: 35px;
+  }
+  
+  .info {
+    margin: 15px 0;
+    color: rgba(0,0,0,26);
+    font-size:20px;
+  }
+  
+  .iconText {
+    margin: 10px 0;
+    display:flex;
+    align-items: center;  
+    font-size: 18px;
+    color:wheat;
+  }
+
+  .iconLoc {
+    margin: 1px 0;
+    display: inline-flex;
+    align-items: left;  
+    font-size: 15px;
+    color:wheat;
+  }
+  /* .buttonCard{
+    display:flex;
+    justify-content:space-between
+
+  } */

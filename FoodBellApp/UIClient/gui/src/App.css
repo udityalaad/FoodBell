@@ -1,0 +1,41 @@
+.login-form{
+  width:80%;
+  /* max-width:500px;  */
+  padding:15px;
+  margin:auto;
+  height:auto; 
+  background-color:white; 
+}
+/* 
+body{
+  background-color:#f5f5dc; 
+} */
+
+ .sideline {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+color:#ccc;
+}
+
+.sideline:before,
+.sideline:after {
+    content: '';
+    border-top: 1px solid #ebebeb;
+    margin: 0 20px 0 0;
+    flex: 1 0 20px;
+}
+
+.sideline:after {
+    margin: 0 0 0 20px;
+} 
+
+.order-page .css-13xy2my {
+  border-radius: 20px 20px 5px 5px;
+}
+
+
+
+

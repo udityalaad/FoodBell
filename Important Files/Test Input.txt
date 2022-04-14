@@ -1,0 +1,309 @@
+* ------------- Account ------------ *
+http://localhost:8090/authentication/addAccount
+{
+	"email": "udityalaad123_simple_@_test_gmail.com",
+	"phone": "+15197291298",
+	"password": "password1"
+}
+{
+	"email": "vipinlaad_Demo_simple_@_test_gmail.com",
+	"phone": "+919673591298",
+	"password": "password2"
+}
+{
+	"email": "account3_Demo_simple_@_test_gmail.com",
+	"phone": "+910101011298",
+	"password": "password3"
+}
+
+http://localhost:8090/authentication/authenticateAccountByEmail/udityalaad123_simple_@_test_gmail.com/password1
+http://localhost:8090/authentication/authenticateAccountByEmail/vipinlaad_Demo_simple_@_test_gmail.com/password2
+http://localhost:8090/authentication/authenticateAccountByEmail/account3_Demo_simple_@_test_gmail.com/password3
+http://localhost:8090/authentication/authenticateAccountByEmail/udityalaad123_simple_@_test_gmail.com/password4
+http://localhost:8090/authentication/authenticateAccountByEmail/vipinlaad_Demo_simple_@_test_gmail.com/password5
+http://localhost:8090/authentication/authenticateAccountByEmail/account3_Demo_simple_@_test_gmail.com/password6
+
+http://localhost:8090/authentication/authenticateAccountByPhone/+15197291298/password1
+http://localhost:8090/authentication/authenticateAccountByPhone/+919673591298/password2
+http://localhost:8090/authentication/authenticateAccountByPhone/+910101011298/password3
+http://localhost:8090/authentication/authenticateAccountByPhone/+15197291298/password4
+http://localhost:8090/authentication/authenticateAccountByPhone/+919673591298/password5
+http://localhost:8090/authentication/authenticateAccountByPhone/+910101011298/password6
+
+
+
+* ------------- Customer ------------ *
+http://localhost:8090/customers/addCustomer
+{
+	"customerName": "Uditya",
+	"customerEmail": "udityalaad123_simple_@_test_gmail.com",
+	"customerPhone": "+15197291298",
+	"address": {
+		"propertyNo" : "1",
+		"streetName" : "Street 1",
+		"city" : "Waterloo",
+		"province" : "ON",
+		"country" : "CA",
+		"zipCode" : "N2J 4L4"
+	},
+	"customerDOB": "1997-08-08",
+	"foodPreference": "Non-veg",
+	"advancedFoodPreference": "Indian",
+	"periodicityPreference": "Daily"
+}
+{
+	"customerName": "Vipin",
+	"customerEmail": "vipinlaad_Demo_simple_@_test_gmail.com",
+	"customerPhone": "+919673591298",
+	"address": {
+		"city" : "Toronto",
+		"province" : "ON",
+		"country" : "CA"
+	},
+	"customerDOB": "2002-11-17",
+	"foodPreference": "Veg",
+	"advancedFoodPreference": "Italian",
+	"periodicityPreference": "Weekly,Monday"
+}
+{
+	"customerName": "Customer 3",
+	"customerEmail": "customer3_Demo_simple_@_test_gmail.com",
+	"customerPhone": "+911111111298",
+	"customerDOB": "2005-02-07",
+	"foodPreference": "Veg",
+	"advancedFoodPreference": "Japanese",
+	"periodicityPreference": "Weekly,Friday"
+}
+
+http://localhost:8090/customers/getCustomer/4
+http://localhost:8090/customers/getCustomer/6
+http://localhost:8090/customers/getCustomer/8
+
+
+http://localhost:8090/customers/updateCustomer
+{
+	"customerId": "4",
+	"customerName": "Uditya - Update",
+	"customerEmail": "udityalaad123_simple_@_test_gmail.com",
+	"customerPhone": "+15197291298",
+	"address": {
+		"addressId": "5",
+		"propertyNo" : "1",
+		"streetName" : "Street 1",
+		"city" : "Waterloo",
+		"province" : "ON",
+		"country" : "CA",
+		"zipCode" : "N2J 4L4"
+	},
+	"customerDOB": "1997-08-08",
+	"foodPreference": "Non-veg",
+	"advancedFoodPreference": "Indian",
+	"periodicityPreference": "Daily"
+}
+
+http://localhost:8090/customers/getCustomer/4
+
+http://localhost:8090/customers/getAllCustomers
+
+http://localhost:8090/customers/getCustomerByEmail/udityalaad123_simple_@_test_gmail.com
+http://localhost:8090/customers/getCustomerByEmail/vipinlaad_Demo_simple_@_test_gmail.com
+http://localhost:8090/customers/getCustomerByEmail/customer3_Demo_simple_@_test_gmail.com
+
+
+
+* ------------- Vendor ------------ *
+http://localhost:8090/vendors/addVendor
+{
+	"vendorName": "Vendor 1",
+	"vendorEmail": "vendor1_Dummy_simple_@_test_gmail.com",
+	"vendorPhone": "+910000001298",
+	"address": {
+		"propertyNo" : "1",
+		"streetName" : "Street 1",
+		"city" : "Waterloo",
+		"province" : "ON",
+		"country" : "CA",
+		"zipCode" : "N2J 4L4"
+	},
+	"vendorBasicFoodOptions": ["Veg", "Non-veg"],
+	"vendorAdvancedFoodOptions": ["Indian", "Italian", "Chinese"],
+	"vendorPeriodicityOptions": ["Weekly"],
+	"vendorAvailability": ["Monday", "Tuesday"],
+	"vendorOfferedSize": ["Small", "Standard", "Large"]
+}
+{
+	"vendorName": "Vendor 2",
+	"vendorEmail": "vendor2_Dummy_simple_@_test_gmail.com",
+	"vendorPhone": "+910002001298",
+	"address": {
+		"city" : "Kitchener",
+		"province" : "ON",
+		"country" : "CA"
+	},
+	"vendorBasicFoodOptions": ["Veg", "Non-veg"],
+	"vendorAdvancedFoodOptions": ["Italian", "Indian"],
+	"vendorPeriodicityOptions": ["Daily", "Weekly"],
+	"vendorAvailability": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+	"vendorOfferedSize": ["Standard", "Large"]
+}
+{
+	"vendorName": "Vendor 3",
+	"vendorEmail": "vendor3_Dummy_simple_@_test_gmail.com",
+	"vendorPhone": "+910000301298",
+	"vendorBasicFoodOptions": ["Veg"],
+	"vendorAdvancedFoodOptions": ["Chinese", "Indian"],
+	"vendorPeriodicityOptions": ["Daily"],
+	"vendorAvailability": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+	"vendorOfferedSize": ["Large"]
+}
+
+http://localhost:8090/vendors/getVendor/9
+http://localhost:8090/vendors/getVendor/11
+http://localhost:8090/vendors/getVendor/13
+
+
+
+http://localhost:8090/vendors/updateVendor
+{
+	"vendorId": "9",
+	"vendorName": "Vendor 1 - Update",
+	"vendorEmail": "vendor1_Dummy_simple_@_test_gmail.com",
+	"vendorPhone": "+910000001298",
+	"address": {
+		"addresId": "10",
+		"propertyNo" : "1",
+		"streetName" : "Street 1",
+		"city" : "Waterloo",
+		"province" : "ON",
+		"country" : "CA",
+		"zipCode" : "N2J 4L4"
+	},
+	"vendorBasicFoodOptions": ["Veg", "Non-veg"],
+	"vendorAdvancedFoodOptions": ["Indian", "Italian", "Chinese"],
+	"vendorPeriodicityOptions": ["Weekly"],
+	"vendorAvailability": ["Monday", "Tuesday"]
+}
+
+http://localhost:8090/vendors/getVendor/9
+
+http://localhost:8090/vendors/getAllVendors
+
+http://localhost:8090/vendors/getVendorByEmail/vendor1_Dummy_simple_@_test_gmail.com
+http://localhost:8090/vendors/getVendorByEmail/vendor2_Dummy_simple_@_test_gmail.com
+http://localhost:8090/vendors/getVendorByEmail/vendor3_Dummy_simple_@_test_gmail.com
+
+
+
+
+
+
+
+* ------------- User Profile ------------ *
+http://localhost:8090/userProfiles/getUserProfileByEmail/udityalaad123_simple_@_test_gmail.com
+http://localhost:8090/userProfiles/getUserProfileByEmail/vendor1_Dummy_simple_@_test_gmail.com
+
+
+
+
+* ------------- Subscription ------------ *
+http://localhost:8090/subscriptions/addSubscription
+{
+	"vendorEmail": "vendor1_Dummy_simple_@_test_gmail.com",
+	"customerEmail": "vipinlaad_Demo_simple_@_test_gmail.com",
+	"startDate": "2020-10-01",
+	"basicFoodSelection": "Veg",
+	"advancedFoodSelection": "Indian",
+	"periodicity": "Weekly",
+	"availedDays": ["Monday"],
+	"mealSize": "Standard",
+	"active": "true",
+	"lastDeliveryDate": null
+}
+{
+	"vendorEmail": "vendor2_Dummy_simple_@_test_gmail.com",
+	"customerEmail": "udityalaad123_simple_@_test_gmail.com",
+	"startDate": "2021-07-25",
+	"basicFoodSelection": "Non-veg",
+	"advancedFoodSelection": "Chinese",
+	"periodicity": "Weekly",
+	"availedDays": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+	"mealSize": "Small",
+	"active": "true",
+	"lastDeliveryDate": "2022-03-26"
+}
+{
+	"vendorEmail": "vendor1_Dummy_simple_@_test_gmail.com",
+	"customerEmail": "udityalaad123_simple_@_test_gmail.com",
+	"startDate": "2021-11-12",
+	"basicFoodSelection": "Non-veg",
+	"advancedFoodSelection": "Italian",
+	"periodicity": "Weekly",
+	"availedDays": ["Tuesday"],
+	"mealSize": "Large",
+	"active": "false",
+	"lastDeliveryDate": "2022-03-27"
+}
+{
+	"vendorEmail": "vendor2_Dummy_simple_@_test_gmail.com",
+	"customerEmail": "vipinlaad_Demo_simple_@_test_gmail.com",
+	"startDate": "2020-04-17",
+	"basicFoodSelection": "Veg",
+	"advancedFoodSelection": "Indian",
+	"periodicity": "Daily",
+	"availedDays": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+	"active": "false",
+	"lastDeliveryDate": null
+}
+
+
+http://localhost:8090/subscriptions/getSubscription/15
+http://localhost:8090/subscriptions/getSubscription/16
+http://localhost:8090/subscriptions/getSubscription/17
+http://localhost:8090/subscriptions/getSubscription/18
+
+http://localhost:8090/subscriptions/getSubscriptionByCustomerEmail/udityalaad123_simple_@_test_gmail.com
+http://localhost:8090/subscriptions/getSubscriptionByCustomerEmail/vipinlaad_Demo_simple_@_test_gmail.com
+http://localhost:8090/subscriptions/getSubscriptionByVendorEmail/vendor1_Dummy_simple_@_test_gmail.com
+http://localhost:8090/subscriptions/getSubscriptionByVendorEmail/vendor2_Dummy_simple_@_test_gmail.com
+
+http://localhost:8090/subscriptions/getAllSubscriptions
+
+http://localhost:8090/subscriptions/getActiveSubscriptionByCustomerEmail/udityalaad123_simple_@_test_gmail.com
+http://localhost:8090/subscriptions/getActiveSubscriptionByCustomerEmail/vipinlaad_Demo_simple_@_test_gmail.com
+
+http://localhost:8090/subscriptions/getActiveSubscriptionByVendorEmail/vendor1_Dummy_simple_@_test_gmail.com
+http://localhost:8090/subscriptions/getActiveSubscriptionByVendorEmail/vendor2_Dummy_simple_@_test_gmail.com
+
+
+
+http://localhost:8090/subscriptions/activateSubscription/17
+http://localhost:8090/subscriptions/deactivateSubscription/15
+http://localhost:8090/subscriptions/getSubscription/17
+http://localhost:8090/subscriptions/getSubscription/15
+
+
+
+http://localhost:8090/subscriptions/getPendingOrdersByCustomerEmail/udityalaad123_simple_@_test_gmail.com
+http://localhost:8090/subscriptions/getPendingOrdersByCustomerEmail/vipinlaad_Demo_simple_@_test_gmail.com
+http://localhost:8090/subscriptions/getPendingOrdersByVendorEmail/vendor1_Dummy_simple_@_test_gmail.com
+http://localhost:8090/subscriptions/getPendingOrdersByVendorEmail/vendor2_Dummy_simple_@_test_gmail.com
+
+http://localhost:8090/subscriptions/getCompletedOrdersByCustomerEmail/udityalaad123_simple_@_test_gmail.com
+http://localhost:8090/subscriptions/getCompletedOrdersByCustomerEmail/vipinlaad_Demo_simple_@_test_gmail.com
+http://localhost:8090/subscriptions/getCompletedOrdersByVendorEmail/vendor1_Dummy_simple_@_test_gmail.com
+http://localhost:8090/subscriptions/getCompletedOrdersByVendorEmail/vendor2_Dummy_simple_@_test_gmail.com
+
+
+
+http://localhost:8090/subscriptions/markDelivered/15
+http://localhost:8090/subscriptions/getSubscription/15
+
+
+
+
+* ------------- Get Cost ------------ *
+http://localhost:8090/subscriptions/getCost/Standard/Veg/Indian/2
+http://localhost:8090/subscriptions/getCost/Large/Non-veg/Italian/6
+
+
+

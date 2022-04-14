@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: usermanagement-service
+
+server:
+  port: 8091

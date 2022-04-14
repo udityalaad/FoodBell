@@ -1,0 +1,4 @@
+delete from foodbell.account where email like '%test%';
+delete from foodbell.customer where customer_email like '%test%';
+delete from foodbell.vendor where vendor_email like '%test%';
+delete from foodbell.subscription where customer_email like '%test%' and vendor_email like '%test%';
