@@ -108,12 +108,12 @@ https://github.com/othneildrew/Best-README-Template -->
   * Architected a secure Micro-service model, with a Gateway facilitating 3 different services (consumer, vendor, auth).
   * Allowed real time communication between vendor & consumer platforms; used Cron jobs to facilitate automated changes.  .
 
-  .
+  <spacer type="vertical" height="4" width="2"></spacer>
   
   #### Detailed Architecture
   <p align="center"><img src="Read_Me_Content/Overview/architecture.jpg" alt="Detailed rchitecture"></p>
 
-  .
+  <spacer type="vertical" height="4" width="2"></spacer>
 
   #### Sample Run
   <p align="center"><img src="Read_Me_Content/Overview/Sample_Run.jpg" alt="Sample Run" width="800"></p>
@@ -151,6 +151,6 @@ https://github.com/othneildrew/Best-README-Template -->
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
   * Many thanks to Prof. Krzysztof Czarnecki (ECE 653, University of Waterloo) for his guidance and assistance throughout the project.
-  * 
+  * [github.com/othneildrew/Best-README-Template/](https://github.com/othneildrew/Best-README-Template)
 
   <p align="right">(<a href="#readme-top">back to top</a>)</p>
