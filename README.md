@@ -39,10 +39,15 @@ https://github.com/othneildrew/Best-README-Template -->
 <!-- ABOUT THE PROJECT -->
 ## About The Project
   ‘FoodBell’ is an asynchronous solution for facilitating subscription-based (recurring) meal services – using a dedicated application, secure micro-service architecture and CI/CD approach.
-  * Created an optimal ‘vendor-consumer’ model & leveraged it to design the user application with targeted functionalities.
-  * Architected a secure Micro-service model, with a Gateway facilitating 3 different services (consumer, vendor, auth).
-  * Allowed real time communication between vendor & consumer platforms; used Cron jobs to facilitate automated changes.
-
+  
+  ##### Objectives
+  * The Objective is to create a unified solution ‘Food Bell’ -a web application that provides an interface for facilitating subscription-based meal services by connecting customers to the right vendors.
+  * This system will save major efforts involved in exploring meal and vendor options for the customers.
+  * With the help of this system, vendors would have a hassle-free experience in managing and tracking all their orders.
+  * The solution aims at fulfilling the demand and supply gap in the food industry.
+  
+  <p align="center"><img src="Read_Me_Content/Overview/Scenario.jfif" alt="Scenario"></p>
+  
   <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -98,23 +103,20 @@ https://github.com/othneildrew/Best-README-Template -->
 
 <!-- Overview -->
 ## Overview
-  #### Objectives
-  * The Objective is to create a unified solution ‘Food Bell’ -a web application that provides an interface for facilitating subscription-based meal services by connecting customers to the right vendors.
-  * This system will save the major effort involvedin exploring meal and vendor options for the customers.
-  * With the help of this system, vendors would have a hassle-free experience in managing and trackingall their orders.
-  * The solution aims at fulfilling the demand and supply gap in the food industry.
-
-  <p align="center"><img src="Read_Me_Content/Overview/scenario.jfif" alt="Scenario"></p>
+  #### Technical Brief:
+  * Created an optimal ‘vendor-consumer’ model & leveraged it to design the user application with targeted functionalities.
+  * Architected a secure Micro-service model, with a Gateway facilitating 3 different services (consumer, vendor, auth).
+  * Allowed real time communication between vendor & consumer platforms; used Cron jobs to facilitate automated changes.  .
 
   .
-
+  
   #### Detailed Architecture
   <p align="center"><img src="Read_Me_Content/Overview/architecture.jpg" alt="Detailed rchitecture"></p>
 
   .
 
   #### Sample Run
-  <p align="center"><img src="Read_Me_Content/Overview/sample_run.jpg" alt="Sample Run" width="800"></p>
+  <p align="center"><img src="Read_Me_Content/Overview/Sample_Run.jpg" alt="Sample Run" width="800"></p>
   .
   <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -140,7 +142,7 @@ https://github.com/othneildrew/Best-README-Template -->
   
   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; udityalaad123@gmail.com
 
-  <b>Project Link</b> &nbsp; [https://github.com/udityalaad/FeedForward_MLP_Classifier](https://github.com/udityalaad/FeedForward_MLP_Classifier)
+  <b>Project Link</b> &nbsp; [https://github.com/udityalaad/FoodBell](https://github.com/udityalaad/FoodBell)
 
   <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -149,5 +151,6 @@ https://github.com/othneildrew/Best-README-Template -->
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
   * Many thanks to Prof. Krzysztof Czarnecki (ECE 653, University of Waterloo) for his guidance and assistance throughout the project.
+  * 
 
   <p align="right">(<a href="#readme-top">back to top</a>)</p>
