@@ -152,5 +152,6 @@ https://github.com/othneildrew/Best-README-Template -->
 ## Acknowledgments
   * Many thanks to Prof. Krzysztof Czarnecki (ECE 653, University of Waterloo) for his guidance and assistance throughout the project.
   * [github.com/othneildrew/Best-README-Template/](https://github.com/othneildrew/Best-README-Template)
+  * [Traditional Food Around The World: 50 Famous Dishes You Have To Try](https://www.travlinmad.com/blog/traditional-food-around-the-world)
 
   <p align="right">(<a href="#readme-top">back to top</a>)</p>
