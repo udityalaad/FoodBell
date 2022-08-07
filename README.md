@@ -14,7 +14,7 @@ https://github.com/othneildrew/Best-README-Template -->
   .
 
   <p align="center">
-    An end-to-end solution to decode everyday hunger demands !
+    An end-to-end solution to decode your everyday hunger demands !
   </p>
 </div>
 
@@ -48,9 +48,9 @@ https://github.com/othneildrew/Best-README-Template -->
 
 
 ## Built With
-  &nbsp; &nbsp; &nbsp; <img src="Read_Me_Content/Tech/Java.JPG" alt="Java_Logo" width="70"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src="Read_Me_Content/Tech/SpringBoot.png" alt="Spring_Boot_Logo" width="75"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src="Read_Me_Content/Tech/MySql.jpg" alt="MySQL_Logo" width="110"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src="Read_Me_Content/Tech/React.png" alt="React_Logo" width="70"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src="Read_Me_Content/Tech/js.jpg" alt="JS_Logo" width="60"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src="Read_Me_Content/Tech/selenium.png" alt="Selenium_Logo" width="65">
+  &nbsp; &nbsp; &nbsp; <img src="Read_Me_Content/Tech/Java.JPG" alt="Java_Logo" width="70"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src="Read_Me_Content/Tech/SpringBoot.png" alt="Spring_Boot_Logo" width="75"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src="Read_Me_Content/Tech/MySql.JPG" alt="MySQL_Logo" width="110"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src="Read_Me_Content/Tech/react.png" alt="React_Logo" width="70"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src="Read_Me_Content/Tech/js.JPG" alt="JS_Logo" width="60"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src="Read_Me_Content/Tech/selenium.png" alt="Selenium_Logo" width="65">
 
-  &nbsp; &nbsp; &nbsp; &nbsp; <b><i> Java </i></b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <b><i> Spring Boot </i></b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <b><i> MySQL </i></b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <b><i> React </i></b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <b><i> JavaScript </i></b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <b><i> Selenium </i></b>
+  &nbsp; &nbsp; &nbsp; &nbsp; <b><i> Java </i></b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <b><i> Spring Boot </i></b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <b><i> MySQL </i></b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <b><i> React </i></b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <b><i> JavaScript </i></b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <b><i> Selenium </i></b>
 
   <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -82,7 +82,7 @@ https://github.com/othneildrew/Best-README-Template -->
         * FoodBellApp/UserMgmntService/src/main/resources/application.properties
      2. Run commands from <b>'Important Files/SQL_PreTest_Commands.txt'</b> in SQL workbench.
      
-  <p align="center"><img src="Read_Me_Content/Overview/flow.JPG" alt="Flow"></p>
+  <p align="center"><img src="Read_Me_Content/Overview/Flow.JPG" alt="Flow"></p>
 
   4. ##### Run and use the application
      1. Start the following microservices (in squence):
