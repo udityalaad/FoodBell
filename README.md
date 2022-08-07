@@ -110,12 +110,12 @@ https://github.com/othneildrew/Best-README-Template -->
 
   <spacer type="vertical" height="4" width="2"></spacer>
   
-  #### Detailed Architecture
+  #### Detailed Architecture:
   <p align="center"><img src="Read_Me_Content/Overview/architecture.jpg" alt="Detailed rchitecture"></p>
 
   <spacer type="vertical" height="4" width="2"></spacer>
 
-  #### Sample Run
+  #### Sample Run:
   <p align="center"><img src="Read_Me_Content/Overview/Sample_Run.jpg" alt="Sample Run" width="800"></p>
   .
   <p align="right">(<a href="#readme-top">back to top</a>)</p>
